@@ -1,4 +1,4 @@
-# AI/CV/DL/CNN Star Scientist List
+# AI/DeepLearning Star Scientist List
 
 |Name|Description|Fields|Papers|GoogleScholar|Wiki|Website|
 |---|---|---|---|---|---|---|

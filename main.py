@@ -39,7 +39,7 @@ def writePerson(file,i):
 def createReadme(file,scientists):
     removeFile(file)
     content = ''
-    content += '# AI/CV/DL/CNN Star Scientist List\n\n'
+    content += '# AI/DeepLearning Star Scientist List\n\n'
     
     strHeader = '|'
     strHeaderFmt = '|'
