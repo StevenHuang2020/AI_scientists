@@ -1,4 +1,4 @@
-# AI/DeepLearning Star Scientist List
+# AI/DeepLearning Star Scientists
 
 |Name|Description|Fields|Papers|GoogleScholar|Wiki|Website|
 |---|---|---|---|---|---|---|
