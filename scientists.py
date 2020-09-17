@@ -73,7 +73,7 @@ Yann_LeCun = scientist(name='Yann LeCun',
 
 Yann_LeCun.addPapers('Deep Learning',\
     'https://s3.us-east-2.amazonaws.com/hkg-website-assets/static/pages/files/DeepLearning.pdf')
-Yann_LeCun.addPapers('https://scholar.google.com/citations?user=WLN3QrAAAAAJ&hl=en&oi=ao',\
+Yann_LeCun.addPapers('Handwritten digit recognition with a back-propagation network',\
     'http://papers.nips.cc/paper/293-handwritten-digit-recognition-with-a-back-propagation-network.pdf')
 scientists.append(Yann_LeCun)
 
