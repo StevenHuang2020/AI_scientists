@@ -22,19 +22,12 @@ def writePerson(file,i):
                 strPerson += ', '
             strPerson += '|'
                 
-        elif k == scientist.Keys[4] or k == scientist.Keys[6] : #GoogleScholar or website
+        elif k == scientist.Keys[4] or k == scientist.Keys[5] \
+             or k == scientist.Keys[6] : #GoogleScholar or wiki, website
             url=i.getAttr(k)
             if url:
-                scholar = getMarkDownUrl('here',url)
+                scholar = getMarkDownUrl(k,url)
                 strPerson += (scholar + '|')
-            else:
-                strPerson += '|'
-                
-        elif k == scientist.Keys[5]: #wiki
-            url=i.getAttr(k)
-            if url:
-                wiki = getMarkDownUrl('Wiki',url)
-                strPerson += (wiki + '|')
             else:
                 strPerson += '|'
     

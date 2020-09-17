@@ -91,3 +91,16 @@ Fei_Fei_Li.addPapers('Imagenet: A large-scale hierarchical image database',\
 
 scientists.append(Fei_Fei_Li)
 
+
+#--------------------------------Andrej Karpathy------------------------------------#
+#Andrej Karpathy, Senior Director of Artifical Intelligence at Tesla.
+
+#--------------------------------Demis Hassabis-------------------------------------#
+#Demis Hassabis, Founder and CEO of DeepMind.
+
+#--------------------------------Jeremy P. Howard------------------------------------#
+#Jeremy P. Howard, Founding Researcher at fast.ai, 
+# Distinguished Research Scientist at the University of San Francisco.
+
+#--------------------------------Ruslan Salakhutdinov------------------------------------#
+#Ruslan Salakhutdinov, Associate Professor at Carnegie Mellon University, Director of AI Research at Apple.
