@@ -2,12 +2,11 @@
 '''scientists list'''
 #https://www.kdnuggets.com/2019/09/12-deep-learning-research-leaders.html
 
-from personDict import scientist
+from personDict import Scientist
     
-print(__doc__)
-scientists = [] #scientist list
+scientists = [] #Scientist list
 #--------------------------------Geoffrey Hinton---------------------------#
-Hinton = scientist(name='Geoffrey Hinton',
+Hinton = Scientist(name='Geoffrey Hinton',
         desc = 'University of Toronto & Engineering Fellow, Google',\
         googleScholar = 'https://scholar.google.com/citations?user=JicYPdAAAAAJ&hl=en&oi=ao',\
         fields = 'Machine learning,Neural networks,Artificial intelligence,Cognitive science,Object recognition',
@@ -19,7 +18,7 @@ Hinton.addPapers('Imagenet classification with deep convolutional neural network
 scientists.append(Hinton)
 
 #--------------------------------Kunihiko Fukushima---------------------------#
-Fukushima = scientist(name='Kunihiko Fukushima',
+Fukushima = Scientist(name='Kunihiko Fukushima',
         desc = 'Kyoto University',\
         googleScholar = '',\
         fields = 'Artificial neural networks, Neocognitron, CNN architecture, Unsupervised learning, Deep learning',
@@ -30,7 +29,7 @@ Fukushima.addPapers('Neocognitron: A self-organizing neural network model for a 
 scientists.append(Fukushima)
 
 #--------------------------------Andrew Ng------------------------------------#
-Andrew_Ng = scientist(name='Andrew Ng',
+Andrew_Ng = Scientist(name='Andrew Ng',
         desc = 'Stanford University & Google Brain',\
         googleScholar = 'https://scholar.google.com/citations?user=mG4imMEAAAAJ&hl=en&oi=ao',\
         fields = 'Artificial intelligence, machine learning, natural language processing, computer vision',
@@ -41,7 +40,7 @@ scientists.append(Andrew_Ng)
 
 
 #--------------------------------Ian Goodfellow------------------------------------#
-Ian_Goodfellow = scientist(name='Ian Goodfellow',
+Ian_Goodfellow = Scientist(name='Ian Goodfellow',
         desc = 'Stanford University & Apple Inc. & Google Brain & OpenAI',\
         googleScholar = 'https://scholar.google.com/citations?user=iYN86KEAAAAJ&hl=en&oi=ao',\
         fields = 'Computer science, GAN',
@@ -54,7 +53,7 @@ Ian_Goodfellow.addPapers('Conditional generative adversarial nets',\
 scientists.append(Ian_Goodfellow)
 
 #--------------------------------Yoshua Bengio------------------------------------#
-Yoshua_Bengio = scientist(name='Yoshua Bengio',
+Yoshua_Bengio = Scientist(name='Yoshua Bengio',
         desc = r'Université de Montréal',\
         googleScholar = 'https://scholar.google.com/citations?user=iYN86KEAAAAJ&hl=en&oi=ao',\
         fields = 'Deep learning, neural machine translation, generative adversarial networks,"attention model", word embeddings, denoising auto-encoders, neural language models, learning to learn',
@@ -64,7 +63,7 @@ Yoshua_Bengio = scientist(name='Yoshua Bengio',
 scientists.append(Yoshua_Bengio)
 
 #--------------------------------Yann LeCun------------------------------------#
-Yann_LeCun = scientist(name='Yann LeCun',
+Yann_LeCun = Scientist(name='Yann LeCun',
         desc = 'New York University & Chief AI Scientist, Facebook',\
         googleScholar = 'https://scholar.google.com/citations?user=WLN3QrAAAAAJ&hl=en&oi=ao',\
         fields = 'Deep learning',
@@ -79,7 +78,7 @@ scientists.append(Yann_LeCun)
 
 
 #--------------------------------Fei-Fei Li------------------------------------#
-Fei_Fei_Li = scientist(name='Fei-Fei Li',
+Fei_Fei_Li = Scientist(name='Fei-Fei Li',
         desc = 'Stanford University & Google',\
         googleScholar = 'https://scholar.google.com/citations?user=rDfyQnIAAAAJ&hl=en&oi=ao',\
         fields = 'Computer vision,Machine learning,Artificial intelligence,Cognitive neuroscience',
