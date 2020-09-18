@@ -22,3 +22,13 @@
 |Papageorgiou et al.|1998|A General Framework for Object Detection|[paper](https://pdfs.semanticscholar.org/3770/af50ce05a47955a94f428a28769ca33b5d26.pdf)|Haar face detection|
 |VIOLA & JONES|SEP,2001|Robust Real-Time Face Detection|[paper](https://link.springer.com/content/pdf/10.1023/b:visi.0000013087.49260.fb.pdf)|Haar face detection real-time|
 |Dalal & Triggs|Jun 2005|Histograms of Oriented Gradients for Human Detection|[paper](https://hal.inria.fr/file/index/docid/548512/filename/hog_cvpr2005.pdf)|HOG Human Detection, CVPR 05|
+
+
+# AI Labs
+
+|Name|Url|Description|
+|---|---|---|
+|Stanford AI Lab|https://ai.stanford.edu/|Stanford AI Lab|
+|MIT CSAIL|https://www.csail.mit.edu/|MIT AI Lab|
+|GOOGLE AI|https://ai.google/|GOOGLE AI|
+|CMU CS|https://www.cs.cmu.edu/|CMU CS|

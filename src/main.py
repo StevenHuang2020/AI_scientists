@@ -5,6 +5,7 @@ from personDict import Scientist
 from scientists import scientists
 from paperDict import Paper
 from papers import papers
+from AILab import AILab,AILabs
 
 gFile = r'../README.md'
 
@@ -83,10 +84,27 @@ def writePapers(file,papers):
         strPaper += '\n'
         writeToFile(file,strPaper)
     
+def writeLabs(file,AILabs):
+    content = '\n\n'
+    content += '# AI Labs\n\n'
+    
+    strHeader,strHeaderFmt = getMarkdownTableH(AILab.Keys)
+    content += strHeader
+    content += strHeaderFmt
+    writeToFile(file,content)
+    
+    for i in AILabs:
+        strLib = '|'
+        for k in AILab.Keys:
+            strLib += (i.getAttr(k) + '|')
+        strLib += '\n'
+        writeToFile(file,strLib)
+        
 def createReadme(file):
     removeFile(file)
     writeScientists(file,scientists)
     writePapers(file,papers)
+    writeLabs(file,AILabs)
     
 def writeToFile(fileName,content):
         with open(fileName,'a',newline='\n',encoding='utf-8') as dstF:
